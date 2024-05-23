@@ -1,11 +1,13 @@
-import Nav from './components/Nav';
-import Cards from './components/Cards';
+// import Nav from './components/Nav';
+import Header from './components/Header';
+import Mid from './components/Mid';
 
  export default function App() {
   return (
     <>
-    <Nav />
-    <Cards />
+    {/* <Nav /> */}
+    <Header />
+    <Mid />
     </>
     
   )
